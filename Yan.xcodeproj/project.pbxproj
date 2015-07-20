@@ -15,6 +15,8 @@
 		9D6864F81B5AD33400AFE4B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6864F71B5AD33400AFE4B9 /* Images.xcassets */; };
 		9D6864FB1B5AD33400AFE4B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D6864F91B5AD33400AFE4B9 /* LaunchScreen.xib */; };
 		9D6865071B5AD33400AFE4B9 /* YanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6865061B5AD33400AFE4B9 /* YanTests.m */; };
+		9D6865471B5BF06D00AFE4B9 /* main.yan in Resources */ = {isa = PBXBuildFile; fileRef = 9D6865461B5BF06D00AFE4B9 /* main.yan */; };
+		9D6865491B5BF3EF00AFE4B9 /* yan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6865481B5BF3EF00AFE4B9 /* yan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		9D6865001B5AD33400AFE4B9 /* YanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6865051B5AD33400AFE4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D6865061B5AD33400AFE4B9 /* YanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YanTests.m; sourceTree = "<group>"; };
+		9D6865461B5BF06D00AFE4B9 /* main.yan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.yan; sourceTree = "<group>"; };
+		9D6865481B5BF3EF00AFE4B9 /* yan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		9D6864E61B5AD33400AFE4B9 /* Yan */ = {
 			isa = PBXGroup;
 			children = (
+				9D6865481B5BF3EF00AFE4B9 /* yan.png */,
 				9D6864EB1B5AD33400AFE4B9 /* AppDelegate.h */,
 				9D6864EC1B5AD33400AFE4B9 /* AppDelegate.m */,
 				9D6864F11B5AD33400AFE4B9 /* ViewController.h */,
@@ -92,6 +97,7 @@
 				9D6864F91B5AD33400AFE4B9 /* LaunchScreen.xib */,
 				9D6864EE1B5AD33400AFE4B9 /* Yan.xcdatamodeld */,
 				9D6864E71B5AD33400AFE4B9 /* Supporting Files */,
+				9D6865461B5BF06D00AFE4B9 /* main.yan */,
 			);
 			path = Yan;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 				9D6864F61B5AD33400AFE4B9 /* Main.storyboard in Resources */,
 				9D6864FB1B5AD33400AFE4B9 /* LaunchScreen.xib in Resources */,
 				9D6864F81B5AD33400AFE4B9 /* Images.xcassets in Resources */,
+				9D6865491B5BF3EF00AFE4B9 /* yan.png in Resources */,
+				9D6865471B5BF06D00AFE4B9 /* main.yan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +428,7 @@
 				9D68650C1B5AD33400AFE4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D68650D1B5AD33400AFE4B9 /* Build configuration list for PBXNativeTarget "YanTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +437,7 @@
 				9D68650F1B5AD33400AFE4B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
